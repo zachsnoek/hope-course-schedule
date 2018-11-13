@@ -16,9 +16,9 @@ library(ggplot2)
 #----------------------------------------------------------------------
 
 # put your absolute path here
-setwd()
+setwd("/Users/zacharysnoek/Programming/java/hope-course-schedule")
 
-main <- fread("main.csv")
+main <- fread("FA10-SP19.csv")
 main <- as.tibble(main)
 
 #----------------------------------------------------------------------
@@ -209,7 +209,7 @@ fired
 #######################################################################
 
 # save to correct directory
-setwd("")
+setwd("/Users/zacharysnoek/Programming/java/hope-course-schedule/plots")
 
 #----------------------------------------------------------------------
 #function to plot courses
